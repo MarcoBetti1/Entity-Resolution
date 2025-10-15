@@ -15,3 +15,13 @@ Large-scale AML ER systems operate under many constraints:
 - **Volume and velocity:** Banks handle hundreds of millions of customers and billions of transactions. Matching requires smart blocking strategies, distributed storage, and near-real-time processing.
 - **Data quality drift:** Misspellings, outdated addresses, and conflicting identifiers are common. Production-grade ER pipelines combine deterministic keys, probabilistic models, and human feedback loops.
 - **Explainability and governance:** Compliance teams must articulate why two profiles were linked (or not). That calls for lineage tracking, feature logging, and policy enforcement. 
+
+<img src="entity-graph.png" alt="Entity overview" width="700">  
+
+*Figure 1. Graph view of an entity*
+
+### Front End
+
+
+### Back End
+
