@@ -93,4 +93,4 @@ Check out a ER backend demo made in python: [Entity-Resolution-Backend-Demo](htt
 
 
 ### Entity Resolution Frontend
-Repo Link
+Check out a ER front end demo made in python: [Entity-Resolution-Frontend-Demo](https://github.com/MarcoBetti1/Entity-Resolution-Frontend)
