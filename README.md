@@ -8,7 +8,7 @@ Financial institutions may appear to have it easy because they collect high‑as
 
 ### Example
 
-Keeping it simple, shoould these records be linked?
+Keeping it simple, should these records be linked?
 | Record | Name                  | Email                       | Phone           |
 |:------:|-----------------------|-----------------------------|-----------------|
 | R1     | Catherine Li          | catherine.li@gmail.com      | 415‑555‑0111    |
