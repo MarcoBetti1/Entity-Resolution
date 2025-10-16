@@ -72,7 +72,6 @@ An interactive view of entities formed from Entity Resolution Backend. Check out
 <p align="center">
   <img src="./image.png" alt="Entity Resolution Frontend overview" width="800" />
   <br />
-  <em>Entity Resolution Frontend overview</em>
   
 </p>
 
