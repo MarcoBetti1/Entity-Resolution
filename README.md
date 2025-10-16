@@ -68,6 +68,7 @@ Check out [Entity-Resolution-Backend-Demo](https://github.com/MarcoBetti1/Entity
 
 
 ### Entity Resolution Frontend
+An interactive view of entities formed from Entity Resolution Backend. Check out [Entity-Resolution-Frontend-Demo](https://github.com/MarcoBetti1/Entity-Resolution-Frontend)
 <p align="center">
   <img src="./image.png" alt="Entity Resolution Frontend overview" width="800" />
   <br />
@@ -75,5 +76,5 @@ Check out [Entity-Resolution-Backend-Demo](https://github.com/MarcoBetti1/Entity
   
 </p>
 
-An interactive view of entities formed from Entity Resolution Backend. Check out [Entity-Resolution-Frontend-Demo](https://github.com/MarcoBetti1/Entity-Resolution-Frontend)
+
 
