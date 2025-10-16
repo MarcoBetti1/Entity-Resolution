@@ -43,7 +43,7 @@ graph LR
 
 #### Fuzzy connection (candidate match)
 
-Sometimes only the names are similar while phone and email disagree. That’s a low‑confidence, fuzzy connection you might surface for review—but not auto‑link.
+For certain fields we can use approximate or fuzzy matching. This is useful for fields such as names and emails. It is not as useful in fields such as Phonenumbers.
 
 | Record | Name               | Email                    | Phone         |
 |:------:|--------------------|--------------------------|---------------|
