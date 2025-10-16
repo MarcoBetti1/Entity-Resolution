@@ -23,7 +23,7 @@ Why R1 ↔ R2 link (after normalization):
 
 
 ```mermaid
-%%{init: {"theme": "default", "securityLevel": "strict", "themeVariables": {"fontSize": "14px"}, "config": {"zoom": false, "pan": false}}}%%
+%%{init: { "config": {"zoom": false, "pan": false}}}%%
 graph LR
   %% Records
   R1["R3: Catherine Li"]
@@ -52,7 +52,7 @@ For certain fields we can use approximate or fuzzy matching. This is useful for 
 | R6     | John Smith         | jsmith@yahoo.com         | 628‑555‑0123  |
 
 ```mermaid
-%%{init: {"theme": "default", "securityLevel": "strict", "themeVariables": {"fontSize": "14px"}, "config": {"zoom": false, "pan": false}}}%%
+%%{init: { "config": {"zoom": false, "pan": false}}}%%
 graph LR
   R5["R5: Jonathan P. Smyth"]
   R6["R6: John Smith"]
