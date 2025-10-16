@@ -63,7 +63,7 @@ graph LR
 
 
 ### Entity Resolution Backend
-Python backend that cleans, matches, and groups synthetic customer and business records with lightweight transaction data so downstream interfaces can trace how duplicates become unified profiles.
+Python backend that cleans, matches, and groups synthetic customer and business records with transaction data to simulate how raw data forms entity profiles.
 Check out [Entity-Resolution-Backend-Demo](https://github.com/MarcoBetti1/Entity-Resolution-Backend-Demo/tree/main)
 
 
@@ -75,5 +75,5 @@ Check out [Entity-Resolution-Backend-Demo](https://github.com/MarcoBetti1/Entity
   
 </p>
 
-Modular FastAPI services and a static JS frontend deliver an interactive view of AML entity-resolution artifacts, enabling rapid browsing of groups, snapshots, and the cross-entity transaction graph. Check out [Entity-Resolution-Frontend-Demo](https://github.com/MarcoBetti1/Entity-Resolution-Frontend)
+An interactive view of entities formed from Entity Resolution Backend. Check out [Entity-Resolution-Frontend-Demo](https://github.com/MarcoBetti1/Entity-Resolution-Frontend)
 
