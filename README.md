@@ -1,8 +1,8 @@
-# Entity Resolution: Linking Records to Real‑World Identities
+ # Entity Resolution: Linking Records to Real‑World Identities
 
 ## Overview
 
-[Entity resolution](https://en.wikipedia.org/wiki/Record_linkage) is the process of linking records together to classify real world entities. In the connected age, data must reliably map back to real‑world entities. From a governance standpoint, we have to ensure that imposters don’t bypass laws and regulations. On the broader internet, there’s often no guaranteed method to verify that someone is who they claim to be [FINRA — Anti‑Money Laundering](https://www.finra.org/rules-guidance/key-topics/aml). Its also important in the interent in general and there is no guaranteed method of telling if someone is who they say they are.  
+[Entity resolution](https://en.wikipedia.org/wiki/Record_linkage) is the process of linking records together to classify real world entities. In the connected age, data must reliably map back to real‑world entities. From a governance standpoint, we have to ensure that imposters don’t bypass laws and regulations [FINRA — Anti‑Money Laundering](https://www.finra.org/rules-guidance/key-topics/aml). On the broader internet, there’s often no guaranteed method to verify that someone is who they claim to be.
 
 Financial institutions may appear to have it easy because they collect high‑assurance identifiers like SSNs or driver’s licenses. In practice, the hard part is linking records when those definitive identifiers are missing, outdated, or entered inconsistently across systems—at the extreme volumes modern platforms handle.
 
