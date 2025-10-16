@@ -68,4 +68,12 @@ Check out [Entity-Resolution-Backend-Demo](https://github.com/MarcoBetti1/Entity
 
 
 ### Entity Resolution Frontend
+<p align="center">
+  <img src="./image.png" alt="Entity Resolution Frontend overview" width="800" />
+  <br />
+  <em>Entity Resolution Frontend overview</em>
+  
+</p>
+
 Modular FastAPI services and a static JS frontend deliver an interactive view of AML entity-resolution artifacts, enabling rapid browsing of groups, snapshots, and the cross-entity transaction graph. Check out [Entity-Resolution-Frontend-Demo](https://github.com/MarcoBetti1/Entity-Resolution-Frontend)
+
