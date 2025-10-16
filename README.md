@@ -50,11 +50,6 @@ For certain fields we can use approximate or fuzzy matching. This is useful for 
 | R5     | Jonathan P. Smyth  | jon.smyth@gmail.com      | 415‑555‑0123  |
 | R6     | John Smith         | jsmith@yahoo.com         | 628‑555‑0123  |
 
-Why this is a candidate, not a link:
-- Names are similar (Smyth ↔ Smith; Jonathan ↔ John), but not exact.
-- Both phone and email differ; strong identifiers disagree.
-- Score likely below the link threshold; route to manual review or keep as a watchlist candidate.
-
 ```mermaid
 graph LR
   R5["R5: Jonathan P. Smyth"]
@@ -63,6 +58,7 @@ graph LR
   %% Dotted edge = low-confidence, name-only similarity
   R5 -. "name ~0.82" .-> R6
 ```
+
 
 ### Entity Resolution Backend
 Check out a ER backend demo made in python: [Entity-Resolution-Backend-Demo](https://github.com/MarcoBetti1/Entity-Resolution-Backend-Demo/tree/main)
