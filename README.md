@@ -42,7 +42,7 @@ graph LR
   R2 --- A_P
 ```
 
-#### Fuzzy connection (candidate match)
+#### Fuzzy connection
 
 For certain fields we can use approximate or fuzzy matching. This is useful for fields such as names and emails. It is not as useful in fields such as Phonenumbers.
 
