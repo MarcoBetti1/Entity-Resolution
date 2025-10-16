@@ -1,4 +1,4 @@
- # Entity Resolution: Linking Records to Real‑World Identities
+ # Linking Records to Real‑World Identities
 
 ## Overview
 
