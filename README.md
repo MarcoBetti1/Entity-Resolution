@@ -8,61 +8,37 @@ Financial institutions may appear to have it easy because they collect high‑as
 
 ### Example
 
-Keep it simple: two entities, one with a nickname and a missing attribute; another that looks similar but should not link.
-
+Keeping it simple, shoould these records be linked?
 | Record | Name                  | Email                       | Phone           |
 |:------:|-----------------------|-----------------------------|-----------------|
-| R1     | Katherine “Kat” Lee   | kat.lee@gmail.com           | 415‑555‑0101    |
-| R2     | Kat Lee               |                             | +1 415 555 0101 |
-| R3     | Catherine Li          | catherine.li@gmail.com      | 415‑555‑0111    |
-| R4     | C. Li                 | catherine.li+work@gmail.com | +1 415 555 0111 |
+| R1     | Catherine Li          | catherine.li@gmail.com      | 415‑555‑0111    |
+| R2     | C. Li                 | catherine.li+work@gmail.com | +1 415 555 0111 |
+
 
 Why R1 ↔ R2 link (after normalization):
-
-- Nickname: “Kat” ↔ “Katherine”.
-- Phone: Formatting and country code normalize to the same E.164 value (+14155550101).
-- Email: R2 missing; two strong signals (name + phone) are enough to link.
-
-Why R3 ↔ R4 link (after normalization):
 
 - Phone: Same number after normalization (+14155550111).
 - Email: Gmail plus‑tag variant maps to the same canonical address.
 - Name: Initials align with the full name.
 
-Why Entity A vs Entity B do not link:
-
-- Different phones (…0101 vs …0111) and different surnames (Lee vs Li).
-
 
 ```mermaid
 graph LR
   %% Records
-  R1["R1: Katherine 'Kat' Lee"]
-  R2["R2: Kat Lee"]
-  R3["R3: Catherine Li"]
-  R4["R4: C. Li"]
+  R1["R3: Catherine Li"]
+  R2["R4: C. Li"]
 
   %% Canonical attributes for Entity A
   subgraph Entity_A[Entity A]
-    A_P["phone: +14155550101"]
-    A_E["email: kat.lee@gmail.com"]
-  end
-
-  %% Canonical attributes for Entity B
-  subgraph Entity_B[Entity B]
-    B_P["phone: +14155550111"]
-    B_E["email: catherine.li@gmail.com"]
+    A_P["phone: +14155550111"]
+    A_E["email: catherine.li@gmail.com"]
   end
 
   %% Links
   R1 --- A_E
   R1 --- A_P
+  R2 --- A_E
   R2 --- A_P
-
-  R3 --- B_E
-  R3 --- B_P
-  R4 --- B_E
-  R4 --- B_P
 ```
 
 #### Fuzzy connection (candidate match)
