@@ -64,7 +64,7 @@ graph LR
 
 ### Entity Resolution Backend
 Python backend that cleans, matches, and groups synthetic customer and business records with transaction data to simulate how raw data forms entity profiles.
-Check out [Entity-Resolution-Backend-Demo](https://github.com/MarcoBetti1/Entity-Resolution-Backend-Demo/tree/Doc)
+Check out [Entity-Resolution-Backend-Demo](https://github.com/MarcoBetti1/Entity-Resolution-Backend-Demo/tree/main)
 
 
 ### Entity Resolution Frontend
